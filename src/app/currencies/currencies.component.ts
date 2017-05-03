@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CurrenciesComponent implements OnInit {
 
+	value: number;
+
   constructor() { }
 
   ngOnInit() {
+  	this.value = 56789;
   }
+
+
 
 }
